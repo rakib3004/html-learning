@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Data Form two</title>
+</head>
+  
+<body bgcolor = "#FF1FFF">
+<h1>Bangladesh Computer Society</h1>
+<h3><pre>"great platform for Computer engineers ,
+Computer scientist , Software engineers 
+and IT specialist. "</pre></h3>
+
+<img src="AI_19.jpg" alt = "pages" border ="0"/><br>
+<h3>Author Notes :</h3>
+
+<a href = "https://keep.google.com/u/0/" target  = "_blank">Google Notes</a><br><br>
+<form>
+<h3><p><b>Chose Your Undergraduation Subject : </b></p><br>
+<input type = "radio" name ="CS" value = "science">Computer Science<br>
+<input type = "radio" name = "CE" value = "engineering">Computer Engineering <br>
+<input type = "radio" name = "SE" value = "software">Software Engineering<br>
+<input type ="radio" name = "IT" value = "it_technology">Information Technology<br>
+
+<b><p>Select what are interest to do in your leisure :</p></b><br>
+<input type = "checkbox" name="cb1" value = "on">Travelling 
+<input type = "checkbox" name="cb2" value = "on">Book reading 
+<input type = "checkbox" name="cb3" value = "on">Fishing 
+<input type = "checkbox" name="cb4" value = "on">Cycling<br>
+<input type = "checkbox" name="cb5" value = "on">Ticket Collecting 
+<input type = "checkbox" name="cb6" value = "on">Movie 
+<input type = "checkbox" name="cb7" value = "on">FM radio 
+<input type = "checkbox" name="cb8" value = "on">Sports<br>
+<input type = "checkbox" name="cb9" value = "on">Gaming 
+<input type = "checkbox" name="cb10" value = "on">Badminton 
+<input type = "checkbox" name="cb11" value = "on">Football 
+<input type = "checkbox" name="cb12" value = "on">Music<br><br><br>
+
+Your Favourite Sector To Work<br>
+<input type = "radio" name ="CS1" value = "science">Computer Networking<br>
+<input type = "radio" name = "CE2" value = "engineering">Computer Architecture <br>
+<input type = "radio" name = "SE3" value = "software">Object Oriented Programming<br>
+<input type ="radio" name = "IT4" value = "it_technology">Information Security<br>
+<input type = "radio" name ="CS2" value = "science">Data Science<br>
+<input type = "radio" name = "CE3" value = "engineering">Artificial Intelligence<br>
+<input type = "radio" name = "SE4" value = "software">Robotics Engineering<br>
+<input type ="radio" name = "IT5" value = "it_technology">Software Design & Analysis<br>
+
+<b><p>Select Your Technologies you are Expert in these:</p></b><br>
+<input type = "checkbox" name="cb1" value = "on">C Programming
+<input type = "checkbox" name="cb2" value = "on">C++
+<input type = "checkbox" name="cb3" value = "on">Java 
+<input type = "checkbox" name="cb4" value = "on">Phython<br>
+<input type = "checkbox" name="cb5" value = "on">C# Collecting 
+<input type = "checkbox" name="cb6" value = "on">Ruby  
+<input type = "checkbox" name="cb7" value = "on">Perl
+<input type = "checkbox" name="cb8" value = "on">Swift
+<input type = "checkbox" name="cb9" value = "on">Scala<br><br>
+
+
+Describe why you want to a memnber of BCS(Bangladesh Computer Society):</h3>
+<textarea rows="12" cols="60" name = "description" >  </textarea>
+</form>
+
+</body>
+</html>
