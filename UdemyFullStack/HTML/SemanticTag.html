@@ -5,22 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semantic Elements</title>
+    <style>
+        #header{
+            background-color: cyan;
+            padding: 24px;
+        }
+        #navbar{
+            background-color: grey;
+            padding: 16px;
+        }
+        #main{
+            background-color: indianred;
+            padding: 24px;
+        }
+
+        .my-section{
+background-color: honeydew;
+padding: 16px;
+        }
+
+        .article{
+            background-color: crimson;
+            padding: 20px;
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+
+    </style>
 </head>
-<body>
-    <header>
-        <nav>
+<body style="margin: 0;">
+    <header id="header">
+        <nav id="navbar">
             <span>Menu 1</span>
             <span>Menu 2</span>
             <span>Menu 3</span>
         </nav>
     </header>
 
-    <main>
-        <section>
-            <article>
+    <main id="main" style="margin-top: 9px;">
+        <section class="my-section">
+            <header>
+                <h3>Socket Programing</h3>
+                <a href="https://realpython.com/python-sockets/">Real Python</a>
+            </header>
+            <article class="article">
+                <p>A socket is a communications connection point (endpoint) that you can name and address in a network. Socket programming shows how to use socket APIs to establish communication links between remote and local processes. Socket application program interfaces (APIs) are the network standard for TCP/IP</p>
+            </article>
+
+            <article class="article">
                 <header>
-                    <h3>Article Title 1</h3>
+                    <h3>R Programing</h3>
+                    <a href="https://www.r-project.org/">R Project Organization</a>
                 </header>
+                <p>R is a programming language for statistical computing and graphics that you can use to clean, analyze, and graph your data. It is widely used by researchers from diverse disciplines to estimate and display results and by teachers of statistics and research methods.</p>
             </article>
         </section>
     </main>
