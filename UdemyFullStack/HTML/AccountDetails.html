@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Table of Accounting</title>
     <style>
         table, td{
             border: 1px solid black;
             border-collapse: collapse;
             font-size: 24px;
+           margin-left: 100px;
+           width: 700px;
         }
         td{
             padding: 16px;
+        }
+        .head{
+            background-color: darkcyan;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -20,27 +26,29 @@
     
 <table>
     <tr>
-        <td colspan="4">Invoice #12345ABC</td>
-        <td colspan="2">18 Jul 2019</td>
+        <td colspan="4" class="head">Invoice #12345ABC</td>
+        <td colspan="2" class="head">18 Jul 2019</td>
     </tr>
 
     <tr>
-        <td colspan="3" rowspan="3"><p><b>Pay To: <br></b>
+        <td colspan="3"><p><b>Pay To: <br></b>
             The Tech Park <br>
             123 Willow Street <br>
-            Boulevard, LA - 567892</p></td>
-        <td colspan="3" rowspan="3"><p><b>Customer: <br></b>
+            Boulevard, LA - 567892</p>
+        </td>
+        <td colspan="3" ><p><b>Customer: <br></b>
             John Park <br>
             Dummy Apartments <br>
             276 Main Street <br>
-            Boulevard, LA - 567892</p></td>
-        </tr>
+            Boulevard, LA - 567892</p>
+        </td>
+    </tr>
 
-        <tr>
-        <td colspan="2">Name/Description</td>
-        <td>Qty.</td>
-        <td>MRP</td>
-        <td colspan="2">Amount</td>
+    <tr>
+        <td colspan="2" class="head">Name/Description</td>
+        <td class="head">Qty.</td>
+        <td class="head">MRP</td>
+        <td colspan="2" class="head">Amount</td>
     </tr>
 
     <tr>
@@ -59,19 +67,19 @@
 
 
     <tr>
-        <td colspan="4">Subtotal</td>
+        <td colspan="4" class="head">Subtotal:</td>
         <td colspan="2">1800</td>
     </tr>
 
     <tr>
-        <td colspan="3">Tax</td>
+        <td colspan="3" class="head">Tax</td>
         <td>10%</td>
         <td colspan="2">180</td>
 
     </tr>
 
     <tr>
-        <td colspan="4">Grand Total:</td>
+        <td colspan="4" class="head">Grand Total:</td>
         <td colspan="2">Rs 1620</td>
 
     </tr>
