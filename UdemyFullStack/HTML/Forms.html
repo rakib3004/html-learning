@@ -9,15 +9,40 @@
 <body>
 
     <form >
-        Username: <br>
+        Full Name: <br>
         <input type="text" name="username">
+
+        <br>Email: <br>
+        <input type="text" name="email">
 
         <br>Password: <br>
         <input type="password" name="password" id="">
 
+        <br>Confirm Password: <br>
+        <input type="password" name="confirm-password" id="">
         <br>
-        <input type="submit" name="Login" id="">
 
+        <br>Gender: <br>
+        <input type="radio" name="male"  value="male">Male</input>
+        <input type="radio" name="male"  value="male">Female</input>
+        <input type="radio" name="male"  value="male">Other</input>
+
+        <div>
+            Security Question: <br>
+            <select name="security-question">
+                <option value="first-school">What is your first school name?</option>
+                <option value="first-nickname">What is your first nick name?</option>
+                <option value="first-job">What is your first job name?</option>
+                <option value="first-aim">What is your first aim?</option>
+            </select>
+        
+        </div>
+
+        <div>
+            <textarea name="answer" id="" cols="30" rows="10"></textarea>
+        </div>
+        <input type="checkbox" value="checkbox">I agree to accept all the terms and conditions</input>
+        <input type="submit" name="Sign Up" id="Sign Up">Sign Up</input>
     </form>
 </body>
 </html>
