@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attributes of HTML Forms</title>
+    <style>
+        #register-form{
+            width: 450px;
+            background-color: chartreuse;
+            padding: 24px;
+            margin-left:auto;
+            margin-right: auto;
+        }
+        
+        #input-label{
+            margin: 0;
+            margin-top: 4px;
+            margin-bottom: 12px;
+          
+        }
+        #input-item{
+            width: 100%;
+            height: auto;
+        }
+        p{
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body style="background-color: mediumspringgreen;">
+
+    <h1 style="text-align: center;">Sign Up</h1>
+    <form id="register-form" method="GET" >
+        <p class="input-lable">Full Name: <br></p> 
+        <input class="input-item" type="text" name="username" placeholder="username">
+
+        <p class="input-lable">Email: <br></p>
+        <input class="input-item" type="text" name="email" placeholder="email">
+
+        <p class="input-lable">Password: <br></p>
+        <input  class="input-item" type="password" name="password" id="">
+
+        <p class="input-lable">Confirm Password: <br></p>
+        <input class="input-item" type="password" name="confirm-password" id="">
+        <br>
+
+        <p  class="input-lable">Gender: <br></p>
+        <input class="input-item" type="radio" name="male"  value="male">Male</input>
+        <input class="input-item" type="radio" name="male"  value="male">Female</input>
+        <input class="input-item" type="radio" name="male"  value="male">Other</input>
+
+        <div>
+            <p class="input-lable">Security Question: <br></p>
+            <select name="security-question">
+                <option value="first-school">What is your first school name?</option>
+                <option value="first-nickname">What is your first nick name?</option>
+                <option value="first-job">What is your first job name?</option>
+                <option value="first-aim">What is your first aim?</option>
+            </select>
+        
+        </div>
+
+        <div>
+            <textarea name="answer" id="" cols="30" rows="10"></textarea><br>
+        </div>
+        <input class="input-item" type="checkbox" value="checkbox">I agree to accept all the terms and conditions</input><br>
+        <input class="input-item" type="submit" name="Sign Up" value="Sign Up">
+    </form>
+</body>
+</html>
