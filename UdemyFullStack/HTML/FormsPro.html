@@ -7,32 +7,49 @@
     <title>Introduction To HTML Forms</title>
     <style>
         #register-form{
-            width: 300px;
+            width: 450px;
             background-color: chartreuse;
             padding: 24px;
+            margin-left:auto;
+            margin-right: auto;
+        }
+        
+        #input-label{
+            margin: 0;
+            margin-top: 4px;
+            margin-bottom: 12px;
+          
+        }
+        #input-item{
+            width: 100%;
+            height: auto;
+        }
+        p{
+            font-size: 24px;
         }
     </style>
 </head>
 <body style="background-color: mediumspringgreen;">
 
+    <h1 style="text-align: center;">Sign Up</h1>
     <form id="register-form" >
         <p class="input-lable">Full Name: <br></p> 
-        <input type="text" name="username">
+        <input class="input-item" type="text" name="username">
 
-        <p class="input-lable"><br>Email: <br></p>
-        <input type="text" name="email">
+        <p class="input-lable">Email: <br></p>
+        <input class="input-item" type="text" name="email">
 
-        <p class="input-lable"><br>Password: <br></p>
-        <input type="password" name="password" id="">
+        <p class="input-lable">Password: <br></p>
+        <input  class="input-item" type="password" name="password" id="">
 
-        <p class="input-lable"><br>Confirm Password: <br></p>
-        <input type="password" name="confirm-password" id="">
+        <p class="input-lable">Confirm Password: <br></p>
+        <input class="input-item" type="password" name="confirm-password" id="">
         <br>
 
-        <p  class="input-lable"><br>Gender: <br></p>
-        <input type="radio" name="male"  value="male">Male</input>
-        <input type="radio" name="male"  value="male">Female</input>
-        <input type="radio" name="male"  value="male">Other</input>
+        <p  class="input-lable">Gender: <br></p>
+        <input class="input-item" type="radio" name="male"  value="male">Male</input>
+        <input class="input-item" type="radio" name="male"  value="male">Female</input>
+        <input class="input-item" type="radio" name="male"  value="male">Other</input>
 
         <div>
             <p class="input-lable">Security Question: <br></p>
@@ -48,8 +65,8 @@
         <div>
             <textarea name="answer" id="" cols="30" rows="10"></textarea><br>
         </div>
-        <input type="checkbox" value="checkbox">I agree to accept all the terms and conditions</input><br>
-        <input type="submit" name="Sign Up" value="Sign Up">
+        <input class="input-item" type="checkbox" value="checkbox">I agree to accept all the terms and conditions</input><br>
+        <input class="input-item" type="submit" name="Sign Up" value="Sign Up">
     </form>
 </body>
 </html>
