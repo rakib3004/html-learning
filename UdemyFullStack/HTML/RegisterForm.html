@@ -7,7 +7,7 @@
     <title>Registration Form</title>
     <style>
         body{
-            background-color: #f2f6ff;
+            background-color: #ffffff;
             margin: 0;
         }
         form{
@@ -30,18 +30,46 @@
                 padding-top: 56px;
                 padding-bottom: 32px;
             }
+            #social-wrapper{
+                background-color: #f2f6ff;
+                padding: 24px;
+            }
+            .input-box{
+                font-size: 18px;
+                padding-bottom: 12px;
+                margin-bottom: 36px;
+                border: 0;
+                border-bottom: 1px solid #ccc;
+                width: 100%;
+
+            }
     </style>
 </head>
 <body>
     <form >
-        <h1>Register</h1>
+        <h1 id="form-heading">Register</h1>
 
-        <div>
+        <div id="social-wrapper">
 
             <img class="image-icon" src="https://i.pinimg.com/originals/c3/a2/6c/c3a26c0c8b6110d2e232e72c79c1ba68.jpg" alt="Google Icon">
             <img class="image-icon" src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png" alt="Facebook Icon">
             <img class="image-icon" src="https://www.kindpng.com/picc/m/255-2558173_github-logo-png-transparent-png.png" alt="Github Icon">
             <img class="image-icon" src="https://thumbs.dreamstime.com/b/linkedin-icon-vector-linkedin-icon-vector-illustration-internet-124937871.jpg" alt="LinkedIn Icon">
+        </div>
+        <div id="input-wrapper">
+
+                <div>
+                    <input type="text" name="username" class="input-box" placeholder="Username">
+                </div>
+                <div>
+                    <input type="text" name="email" class="input-box" placeholder="Email">
+                </div>
+                <div>
+                    <input type="password" name="password" class="input-box" placeholder="Password">
+                </div>
+                <div>
+                    <input type="password" name="confirm-password" class="input-box" placeholder="Confirm Password">
+                </div>
         </div>
 
     </form>
