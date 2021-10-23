@@ -9,6 +9,7 @@
         body{
             background-color: #ffffff;
             margin: 0;
+            padding: 16px;
         }
         form{
             text-align: center;
@@ -43,6 +44,23 @@
                 width: 100%;
 
             }
+
+            #input-wrapper{
+                padding-top: 80px;
+                padding-bottom: 40px;
+                padding-left: 80px;
+                padding-right: 80px;
+            }
+            #button-submit{
+                background-color: #0056ff;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: 24px;
+                padding-right: 24px;
+                font-size: 18px;
+                color: white;
+                border: none;
+            }
     </style>
 </head>
 <body>
@@ -70,6 +88,8 @@
                 <div>
                     <input type="password" name="confirm-password" class="input-box" placeholder="Confirm Password">
                 </div>
+
+                <input id="button-submit"  type="submit" value="Register">
         </div>
 
     </form>
