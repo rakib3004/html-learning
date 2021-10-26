@@ -14,3 +14,26 @@ margin: 0;
     color: black;
     text-decoration: none;
 }
+
+/*link  */
+.menu-item:link{
+    color: aqua;
+}
+
+/* visited */
+
+.menu-item:visited{
+    color: white;
+}
+
+/* hover  */
+
+.menu-item:hover{
+    color: crimson;
+}
+
+/* active */
+
+.menu-item:active{
+    color: gray;
+}
