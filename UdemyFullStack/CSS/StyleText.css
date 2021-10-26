@@ -1,0 +1,16 @@
+h1{
+    color: darkcyan;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+p{
+
+    color: crimson;
+    text-align: justify;
+    font-weight: 600;
+    letter-spacing: -1px;
+   font-size: 16px;
+   line-height: 1;
+}
