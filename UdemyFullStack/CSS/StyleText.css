@@ -15,3 +15,10 @@ p{
    line-height: 1;
    font-family: 'Roboto Slab', serif;
 }
+#history{
+
+    border-style: double;
+    border-width: 13px;
+    border-color: darkgrey;
+    color: limegreen;
+}
