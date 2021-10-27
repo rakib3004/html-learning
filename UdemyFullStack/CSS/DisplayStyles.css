@@ -1,0 +1,14 @@
+.image-wrapper{
+
+    display: inline;
+
+}
+
+.image-item{
+    width: 250px;
+    height: 180px;
+}
+
+.menu-item{
+display: block;
+}
