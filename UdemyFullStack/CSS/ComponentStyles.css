@@ -1,0 +1,35 @@
+header{
+    background-color: crimson;
+    height: 80px;
+    position: static;
+}
+
+main{
+    padding: 16px 10%;
+}
+
+body{
+    margin: 0;
+}
+
+aside{
+    width: 50%;
+    height: 450px;
+    margin-right: 1%;
+    background-color: orangered;
+    display: inline-block;
+
+
+}
+
+section{
+    width: 50%;
+    height: 450px;
+    background-color: springgreen;
+    display: inline-block;
+}
+
+footer{
+    height: 300px;
+    background-color: blue;
+}
