@@ -1,0 +1,18 @@
+#span1{
+    margin: 0;
+    background-color: aqua;
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+    padding: 100px;
+}
+
+#span2{
+    margin: 0;
+    background-color: springgreen;
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+    padding: 100px;
+    
+}
