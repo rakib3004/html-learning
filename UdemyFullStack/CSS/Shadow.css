@@ -1,0 +1,10 @@
+p{
+    text-align: center;
+    padding: 70px;
+    margin: 60px;
+    background-color: cyan;
+    color: aliceblue;
+    text-shadow: 2px 2px orangered;
+    font-size: 100px;
+    box-shadow: 0px 4px 100px black;
+}
