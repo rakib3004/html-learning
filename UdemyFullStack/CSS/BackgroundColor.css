@@ -1,0 +1,27 @@
+.alignment{
+
+    margin-left: 350px;
+   
+ 
+}
+
+.bgcolor{
+    font-size: 60px;
+    background-color: bisque;
+}
+
+header{
+width: 100%;
+padding: 32px;
+box-sizing: border-box;
+padding-left: 5%;
+padding-right: 5%;
+height: 720px;
+background-color: mediumspringgreen;
+
+
+}
+
+body{
+    margin: 0;
+}
